@@ -1,5 +1,5 @@
 """
-Next 4 cells are for installing a t-SNE package (tsne-cuda) that can utilize GPU to handle much faster calculations.
+Code until line 30 is for installing a t-SNE package (tsne-cuda) that can utilize GPU to handle much faster calculations.
 
 tsne-cuda: https://github.com/CannyLab/tsne-cuda
 """
@@ -31,6 +31,7 @@ tsne-cuda: https://github.com/CannyLab/tsne-cuda
 """
 Actual code starts here:
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pickle
